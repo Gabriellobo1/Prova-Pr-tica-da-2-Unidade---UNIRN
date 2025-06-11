@@ -1,0 +1,33 @@
+.card {
+    display: flex; 
+    align-items: center; 
+    gap: 20px; 
+    
+    background-color: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin-bottom: 20px; 
+    max-width: 600px;
+}
+
+
+.card img {
+    width: 120px;
+    height: 120px; 
+    border-radius: 50%; 
+    object-fit: cover; 
+}
+
+
+.card-content {
+    flex-grow: 1; 
+}
+
+
+.card-content h2 {
+    margin-top: 0;
+}
+
+
+
