@@ -36,3 +36,23 @@
     gap: 20px;                 
     flex-wrap: wrap;          
 }
+
+.card-content button {
+    padding: 8px 16px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.card-content button:hover {
+    background-color: #0056b3;
+}
+
+.card-content button:focus {
+   
+    background-color: #000cb3;
+    box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.5);
+    outline: none;
+}
