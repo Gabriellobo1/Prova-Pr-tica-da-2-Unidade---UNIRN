@@ -1,4 +1,9 @@
+body{
+    background-color: rgb(54, 0, 69);
+}
+
 .card {
+  
     display: flex; 
     align-items: center; 
     gap: 20px; 
